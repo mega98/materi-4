@@ -110,8 +110,9 @@
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar" data-sidebarbg="skin6">
                 <!-- Sidebar navigation-->
-                @include('template.section.sidebar')
+                   
                 <!-- End Sidebar navigation -->
+             @include('template.section.sidebar')
             </div>
             <!-- End Sidebar scroll-->
         </aside>
@@ -125,11 +126,11 @@
             <div class="Container">
                 <div class="row">
                     <div class="col-md-12">
-                       @include('template.utils.notif') 
+                        @include('template.utils.notif')
                     </div>
                 </div>
             </div>
-            @yield('content')
+                        @yield('content')
         </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->

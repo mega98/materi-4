@@ -45,11 +45,11 @@ class ProdukController extends Controller
 		$produk->stok = request('stok');
 		$produk->save();
 
-		return redirect('produk')->with('success','Data Berhasil Diubah');
+		return redirect('produk')->with('success','Data Berhasil Diedit');
 	}
 
 	function destroy(Produk $produk){
 		$produk->delete();
-		return redirect('produk')->with('danger','Data Berhasil Dihapus');
+		return redirect('produk')->with('success','Data Berhasil Dihapus');
 	}
 }

@@ -39,9 +39,11 @@
                                 </div>
                             </div>
                             </div>
-                            <div class="form-group">
-                                <label for="" class="control-label">Deskripsi</label>
-                                <textarea name="deskripsi" class="form-control"></textarea>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="" class="control-label">Deskripsi</label>
+                                    <input type="text" class="form-control" name="deskripsi">
+                                </div>
                             </div>
                             
                             <button class="btn btn-dark float-right"><i class="fa fa-save"></i> Simpan</button>
